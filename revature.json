@@ -1,0 +1,40 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/InstantiationTest.java",
+      "testCases": [
+        {
+          "methodName": "labPart1TestNotNull",
+          "label": "instantiates a non-null object",
+          "description": "Verifies that labPart1 returns a new object instance rather than null."
+        },
+        {
+          "methodName": "labPart1TestIsAlbum",
+          "label": "returns an Album object",
+          "description": "Checks that labPart1 specifically returns an instance of Album."
+        },
+        {
+          "methodName": "labPart2TestNotNull",
+          "label": "instantiates a non-null object (part 2)",
+          "description": "Ensures that labPart2 returns a non-null object instance."
+        },
+        {
+          "methodName": "labPart2TestNotAlbumOrString",
+          "label": "returns object not Album or String",
+          "description": "Ensures that labPart2 returns an object that is neither Album nor String."
+        },
+        {
+          "methodName": "labPart3TestNotNull",
+          "label": "returns non-null object (part 3)",
+          "description": "Verifies that labPart3 returns an object that is not null."
+        },
+        {
+          "methodName": "labPart3TestNotAbc",
+          "label": "returned String not 'abc'",
+          "description": "Ensures that labPart3 does not return a String equal to 'abc'."
+        }
+      ]
+    }
+  ]
+}
